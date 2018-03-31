@@ -1,6 +1,13 @@
 h2 {
   margin: 20px 0 2.5px 0;
 }
+h3.read-more-next {
+  font-size:1.75rem;
+}
+span.read-more-next {
+  font-size:0.875rem;
+  color:rgba(102,102,102,0.8);
+}
 h3 {
   margin: 20px 0 2.5px 0;
 }
