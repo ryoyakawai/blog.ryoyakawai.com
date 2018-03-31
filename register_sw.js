@@ -11,3 +11,4 @@ window.addEventListener('load', () => {
         console.warn('ServiceWorker disabled since your access is from HTTP. Use HTTPS to enable it.');
     }
 });
+

@@ -3,6 +3,7 @@
     let titleText = document.querySelector('.header-title-text');
     let titleImage = document.querySelector('.header-title-wrap');
     let entryHeader = document.querySelector('div.entry-header'); // post.html
+    let entryTitle = document.querySelector('div.entry-title'); // post.html
     var titleIsFixed = false, titleLocked = 0;
     titleText.style.setProperty('width', '100%');
     titleText.style.setProperty('margin', 'auto');
@@ -25,6 +26,8 @@
                 //document.querySelector('.entry-reading-time').style.setProperty('opacity', '0');
             }
             entryHeader.classList.add('header-shadow');
+
+            document.querySelector('.dl-menuwrapper').style.setProperty('margin', '20px 5px 0');
         }
         if( window.pageYOffset < titleLocked ) {
             titleLocked = 0;
@@ -43,6 +46,7 @@
                 entryTitle.classList.remove('titleShrink', 'header-shadow');
             }
             entryHeader.classList.add('header-shadow');
+            document.querySelector('.dl-menuwrapper').style.removeProperty('margin');
         }
     });
 }());
