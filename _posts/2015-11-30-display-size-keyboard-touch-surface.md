@@ -3,7 +3,7 @@ layout: post
 title: 画面サイズとかキーボードとかタッチパネルとか
 description: ""
 modified: 2015-11-30
-tags: [Tasting]
+tags: [Gadget]
 ---
 <div> </div>
 
