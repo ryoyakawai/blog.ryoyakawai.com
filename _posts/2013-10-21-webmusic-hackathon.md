@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Music ハッカソン #1 やりました。
+title: Web Music ハッカソン &#35;1 やりました。
 description: ""
 modified: 2013-10-21
 tags: [Web Audio API, Web MIDI API, Web Music Developers JP, Hackathon, Web Music, Web Music Hackathon]

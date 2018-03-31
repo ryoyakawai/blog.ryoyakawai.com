@@ -27,3 +27,6 @@ p {
 img {
   margin: 3px 0 13px 0;
 }
+.image-bordered {
+  border: 1px solid #efefef;
+}
