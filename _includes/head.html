@@ -15,7 +15,7 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="article">
-<meta property="og:image" content="/images/background_sf_pano_1200x360.jpg">
+<meta property="og:image" content="{{ site.url }}/images/background_sf_pano_1200x360.jpg">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -43,6 +43,8 @@
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
+<!-- register service worker-->
+<script type="text/javascript" src="register_sw.js"></script>
 <!-- Icons -->
 <!-- 16x16 -->
 <link rel="shortcut icon" href="{{ site.url }}/profile_photo.jpg">
