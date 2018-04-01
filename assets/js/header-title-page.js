@@ -12,7 +12,7 @@
             titleLocked = window.pageYOffset;
             titleText.classList.add('titlefixed');
 
-            if( typeof entryTitle !== null) {
+            if( entryTitle !== null ) {
                 entryTitle.classList.add('titleShrink', 'header-shadow');
             }
             
@@ -38,11 +38,11 @@
                 
             }
 */
-            if( typeof document.querySelector('.entry-reading-time') !== 'undefined') {
+            if( document.querySelector('.entry-reading-time') !== null ) {
                 //document.querySelector('.entry-reading-time').style.setProperty('opacity', '1');
             }
 
-            if( typeof entryTitle !== 'undefined') {
+            if( entryTitle !== null ) {
                 entryTitle.classList.remove('titleShrink', 'header-shadow');
             }
             entryHeader.classList.add('header-shadow');
