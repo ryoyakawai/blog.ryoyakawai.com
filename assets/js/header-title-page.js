@@ -12,7 +12,7 @@
             titleLocked = window.pageYOffset;
             titleText.classList.add('titlefixed');
 
-            if( typeof entryTitle !== 'undefined') {
+            if( typeof entryTitle !== null) {
                 entryTitle.classList.add('titleShrink', 'header-shadow');
             }
             
