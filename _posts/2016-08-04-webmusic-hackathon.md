@@ -41,10 +41,9 @@ Web Audio APIは現在ほぼ全てのブラウザでサポートされていて�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-04.png" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5731" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-01.png" height="350px" start="5731" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
-
 
 ## [2位] “nanoBlocks” developed by nas
 マルチタッチディスプレイを用いた Wavetable シンセサイザです。
@@ -55,8 +54,8 @@ DJという視点から見ると、楽器では出せない音を簡単に手の
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-05.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5517" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-02.png" height="350px" start="5517" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -67,8 +66,8 @@ DJプレイにトレンドワードを気軽に入れることができそうで
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-06.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3743" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-03.png" height="350px" start="3743" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -80,8 +79,8 @@ MMLパーサなのですが、TwitterでツイートされたMMLを演奏する�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-07.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5257" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-04.png" height="350px" start="5257" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -92,8 +91,8 @@ MMLパーサなのですが、TwitterでツイートされたMMLを演奏する�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-08.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2400" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-05.png" height="350px" start="2400" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -103,8 +102,8 @@ MMLパーサなのですが、TwitterでツイートされたMMLを演奏する�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-09.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3031" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-06.png" height="350px" start="3031" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -113,9 +112,10 @@ MMLパーサなのですが、TwitterでツイートされたMMLを演奏する�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-10.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3317" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-07.png" height="350px" start="3317" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
+
 
 
 ## ”mi:muz:tuchの設定ツール” developed by D.F.Mac. @TripArts Music
@@ -123,8 +123,8 @@ mi:muz:touchというオリジナルのUSB-MIDI基板の設定をブラウザで
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-11.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=953" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-08.png" height="350px" start="953" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -133,8 +133,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-12.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=1375" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-09.png" height="350px" start="1375" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “ImproVJ” developed by team ImproVJ
@@ -142,8 +142,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-20.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=1696" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-10.png" height="350px" start="1696" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “WONDER.NET” developed by kirinsan.org
@@ -152,8 +152,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-21.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2132" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-11.png" height="350px" start="2132" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “dance live” developed by nakaG
@@ -161,8 +161,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-22.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2769" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-12.png" height="350px" start="2769" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “SPKR” developed by K3
@@ -170,8 +170,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-23.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-13.png" height="350px" start="4300" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -180,8 +180,8 @@ IoT機器をMIDIコントローラから制御するアプリケーションで�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-24.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4597" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-14.png" height="350px" start="4597" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -190,9 +190,10 @@ DJが操作した情報を時間管理の概念のある例えばStandar MIDI Fi
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-25.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4597" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-15.png" height="350px" start="4597" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
+
 
 <br><br>
 これらの15のアプリケーションが今回のハッカソンでハックされました。<br>
@@ -205,8 +206,8 @@ DJが操作した情報を時間管理の概念のある例えばStandar MIDI Fi
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-26.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=56" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-16.png" height="350px" start="56" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -216,8 +217,8 @@ LiveBeatsはPC/Macを楽器にしてしまう、というコンセプトから�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-27.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=285" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-17.png" height="350px" start="285" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -226,10 +227,11 @@ LiveBeatsはPC/Macを楽器にしてしまう、というコンセプトから�
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-28.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=726" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-18.png" height="350px" start="726" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 <br>
+
 これらが今回のハッカソンの全てとなります。<br>
 <br>
 Web Music ハッカソンも5回目となりましたが、今回はハックされた作品のレベルの高さを感じました。恐らくこの要因は少なくとも2つあると思います。まず1つは日々、Web Audio/MIDI APIの認知度が上がり、「とにかくAPIを使う」ではなくて「APIを使ってどんなことをしようか」というAPIを使うからアプリケーションにAPIを参加させる方向に向かっていると思います。もう1点は事前ミートアップです。今回、事前Meetupをしようか非常に迷いました。なぜならいつもは行っていないので、参加者の皆様に集まっていただけるかを懸念しておりました。が、結果からすると、開催してとてもよかったです。ハッカソン当日の全てのチームが事前ミートアップでできたわけではありませんし、全てのハッカソン参加者が事前ミートアップに参加できた訳でもありません。が、事前に顔を合わせることで場全体のIceBreakingされた状態から始まったので、ハッカソン当日の短い時間を非常に有効に使っていただけたのだと思っています。実際に参加者から「事前ミートアップのお陰でハック開始直後から始めることができた」と感想も頂いています。<br>

@@ -10,6 +10,7 @@ image:
 #  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 <div> </div>
+
 <a href="/2016/08/webmusic-hackathon.html">日本語</a><br>
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-01.png" width="100%">
@@ -36,8 +37,8 @@ With this application, client of audience is part of instruments, so speaker may
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-04.png" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5731" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-01.png" height="350px" start="5731" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -48,8 +49,8 @@ Wavetable synthesizer played by multi touch feature. Each touch controls filters
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-05.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5517" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-02.png" height="350px" start="5517" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -59,8 +60,8 @@ So eventually, trend word can be filled in to any DJs play really easily.
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-06.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3743" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-03.png" height="350px" start="3743" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -70,8 +71,8 @@ Basically MML parser of Chrome extension, but parsing MML in the Twitter tweet. 
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-07.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5257" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-04.png" height="350px" start="5257" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -81,8 +82,8 @@ The clients which runs this application becomes controller, and remotely connect
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-08.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2400" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-05.png" height="350px" start="2400" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -92,8 +93,8 @@ Collaboration step sequencer. Every client become controller and synthesizer, an
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-09.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3031" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-06.png" height="350px" start="3031" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -102,8 +103,8 @@ Drum pattern generator, and the pattern is controlled by MIDI controller. This p
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-10.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=3317" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-07.png" height="350px" start="3317" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -113,8 +114,8 @@ He is the one of the guy who has been joining all of Web Music Hackathon, and he
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-11.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=953" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-08.png" height="350px" start="953" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -124,8 +125,8 @@ All of the controlled devices are light related devices, such as multi color lig
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-12.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=1375" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-09.png" height="350px" start="1375" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “ImproVJ” developed by team ImproVJ
@@ -133,8 +134,8 @@ The concept of this application is making music by various input. Let’s take i
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-20.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=1696" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-10.png" height="350px" start="1696" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “WONDER.NET” developed by kirinsan.org
@@ -143,8 +144,8 @@ Reflect motion from camera to image effect, and sound effect. Basic idea of this
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-21.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2132" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-11.png" height="350px" start="2132" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “dance live” developed by nakaG
@@ -152,8 +153,8 @@ DJ get accelerometer data from audience’s mobile phone in real time. And those
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-22.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2769" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-12.png" height="350px" start="2769" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 ## “SPKR” developed by K3
@@ -161,8 +162,8 @@ Basic idea of this application is that using smart phone speaker of audience for
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-23.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-13.png" height="350px" start="4300" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -171,8 +172,8 @@ Connecting number of client(PC, mobile phone) by WebSocket for having music sess
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-24.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4597" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-14.png" height="350px" start="4597" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -183,8 +184,8 @@ However, the application development had not been completed during the hackathon
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-25.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4597" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-15.png" height="350px" start="4597" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 <br><br>
@@ -198,8 +199,8 @@ Sequencer GUI is usually 2D, but this application is providing GUI as 3D. "Seein
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-26.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=56" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-17.png" height="350px" start="285" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -209,8 +210,8 @@ LiveBeats is the application that change your computer to musical instruments. A
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-27.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=285" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-17.png" height="350px" start="285" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 
 
@@ -220,10 +221,11 @@ The other one is automatic growl sound creation application. Latter one is suppo
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-28.jpg" width="60%">
 </div>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0loDyq3B894?rel=0&amp;controls=0&amp;showinfo=0&amp;start=726" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="0loDyq3B894" imgsrc="{{ site.url }}/images/2016/08/201608-18.png" height="350px" start="726" autoplay="1" rel="0" controls="0" showinfo="0"></youtube-play>
 </div>
 <br>
+
 These are the all about applications that were developed at hackathon this time.<br>
 <br>
 This was the 5th time of Web Music Hackathon, and I am feeling that all of the applications which were developed at this time are really high level than any other time. I think at least two factors exisit to make this happen. One is “Web Audio/MIDI API became well known API than before”, the other is “Pre-meetup”. Pre-meetup was a big challenge for hackathon this time. Pre-meetup had held in 4 days before the hackathon for about 3 hours starting at 7pm. Aim of pre meetup was "team building". Well, not all of the team was build at the pre meetup, however I heard from several attendees who built group at pre-meetup that "Our team could start hacking quickly at the hackathon morning, because ice breaking had already finished at pre-meetup." <br>
