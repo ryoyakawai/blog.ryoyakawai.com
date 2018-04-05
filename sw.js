@@ -9,7 +9,7 @@ if (workbox) {
 workbox.routing.registerRoute(
         /background_sf_pano.jpg$|profile_photo.jpg$|background_sf_pano_300x300.jpg$|about_background.jpg/,
     workbox.strategies.cacheFirst({
-        cacheName: 'speciffic_images',
+        cacheName: 'speciffic_images-01',
         plugins: [
             new workbox.expiration.Plugin({
                 maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
@@ -21,7 +21,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
         /\.(?:png|gif|jpg|jpeg|svg|js|css)$|/,
     workbox.strategies.cacheFirst({
-        cacheName: 'static-resources',
+        cacheName: 'static-resources-01',
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 60,
