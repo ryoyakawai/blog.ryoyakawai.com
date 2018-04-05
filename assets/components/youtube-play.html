@@ -9,7 +9,7 @@
      }
      .outer-container {
        position:relative;
-       margin: 5px 0;
+       margin: 5px 0 15px 0;
      }
      #container {
        display: flex;
@@ -139,18 +139,22 @@
            super.ready();
            console.log(YouTubePlay.is + ' is ready!');
 
+           this.max = { width:0, height: 0 };
+           this.max.width = 800 + 'px';
+           this.max.height = 9 * parseInt(this.max.width) / 16 + 'px'; 
+           
            let shadowR = this.shadowRoot;
            let iSize = this._computeHeight.bind(this)();
-           this.height = iSize.height;
-           this.width = iSize.width;
-           
+           let tSize = parseInt(this.getAttribute('size')) / 100;
+           this.height = tSize * parseInt(iSize.height) + 'px';
+           this.width = tSize * parseInt(iSize.width) + 'px';
            this.uniqid = '_' + Math.random().toString(36).substr(2, 14);
-
+           
            window.addEventListener('resize', event => {
                let iSize = this._computeHeight.bind(this)();
-               let tSize = this.getAttribute('size').replace('%', '') / 100;
-               this.height = tSize * iSize.height.replace('px', '') + 'px';
-               this.width = tSize * iSize.width.replace('px', '') + 'px';
+               let tSize = parseInt(this.getAttribute('size')) / 100;
+               this.height = tSize * parseInt(iSize.height) + 'px';
+               this.width = tSize * parseInt(iSize.width) + 'px';
                
                let shadowR = this.shadowRoot;
                shadowR.querySelector('#playme').style.setProperty('height', this.height);
@@ -178,9 +182,9 @@
     
            // YouTube Button: size 140 x 82
            function _computeButtonTop () {
-               let out = Math.abs(this.height.replace('px', '') / 2 - 65) + 'px';
-               if( this.width.replace('px', '') >= 574 ) {
-                   out = Math.abs( (382 * this.getAttribute('size').replace('%', '') / 100) / 2 - 65) + 'px';
+               let out = Math.abs( parseInt(this.height) / 2 - 65) + 'px';
+               if( parseInt(this.width) >= this.max.width ) {
+                   out = Math.abs( (this.max.height * parseInt(this.getAttribute('size')) / 100) / 2 - 65) + 'px';
                }
                return out;
            }
@@ -216,14 +220,13 @@
        _computeHeight() {
            // convert width to height by 16:9 aspect ratio.
            let out = {
-               height: Math.floor((this.getAttribute('size').replace('%', '') / 100) * (9 * window.innerWidth / 16)) + 'px',
-               width:  Math.floor((this.getAttribute('size').replace('%', '') / 100) * window.innerWidth ) + 'px'
+               width:  Math.floor(( parseInt(this.getAttribute('size')) / 100) * window.innerWidth ) + 'px',
+               height: Math.floor(( parseInt(this.getAttribute('size')) / 100) * (9 * window.innerWidth / 16)) + 'px'
            }
                
-           if( out.width.replace('px', '') >= 574 ) {
-               out = { width: '574px', height:'322px' };
+           if( parseInt(out.width) >=  parseInt(this.max.width) ) {
+               out = this.max;
            }
-
            return out;
        }
        
@@ -242,7 +245,12 @@
            
            iframe.setAttribute('frameborder', '0');
            iframe.src = this.ytContenturl;
+
            
+           if( this.getAttribute('allowfullscreen') == 1 ) {
+               iframe.setAttribute('allowfullscreen', 'allowfullscreen');
+           }
+
            let div = document.createElement('div');
            div.classList.add('ytiframe');
            div.appendChild(iframe);
