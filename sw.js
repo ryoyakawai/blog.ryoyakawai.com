@@ -10,7 +10,7 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load `);
 }
 workbox.routing.registerRoute(
-        /background_sf_pano.jpg$|profile_photo.jpg$|background_sf_pano_300x300.jpg$|about_background.jpg/,
+        /avatar.jpg$|profile_photo.jpg$|background_sf_pano_300x300.jpg$|about_background.jpg/,
     workbox.strategies.cacheFirst({
         cacheName: 'speciffic-images_' + VERSION,
         plugins: [
