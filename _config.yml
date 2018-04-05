@@ -13,7 +13,7 @@ owner:
   name:           Ryoya Kawai
   avatar:         avatar.jpg
   #bio:            "Engineer"
-  #email:          ryoya.kawai+blog@gmail.com
+  email:         blog@ryoyakawai.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ryoyakawai
   facebook:       ryoyakawai
@@ -50,7 +50,7 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:year/:month/:title.html
+permalink:   /:year/:month/:day/:title.html
 
 # Amount of post to show on home page
 paginate: 5
