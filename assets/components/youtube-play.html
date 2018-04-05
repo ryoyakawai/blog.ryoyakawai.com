@@ -1,7 +1,7 @@
 <link rel="import"  href="https://polygit.org/components/polymer/polymer-element.html">
 
 <dom-module id="youtube-play">
-
+  
   <template>
     <style>
      :host {
@@ -140,14 +140,34 @@
            console.log(YouTubePlay.is + ' is ready!');
 
            let shadowR = this.shadowRoot;
-
+           let iSize = this._computeHeight.bind(this)();
+           this.height = iSize.height;
+           this.width = iSize.width;
+           
            this.uniqid = '_' + Math.random().toString(36).substr(2, 14);
-           this.width = (16 * this.getAttribute('height').replace('px', '') / 9) + 'px';
+
+           window.addEventListener('resize', event => {
+               let iSize = this._computeHeight.bind(this)();
+               let tSize = this.getAttribute('size').replace('%', '') / 100;
+               this.height = tSize * iSize.height.replace('px', '') + 'px';
+               this.width = tSize * iSize.width.replace('px', '') + 'px';
+               
+               let shadowR = this.shadowRoot;
+               shadowR.querySelector('#playme').style.setProperty('height', this.height);
+               shadowR.querySelector('.outer-container').style.setProperty('height', this.height);
+               shadowR.querySelector('.yt-button-frame').style.setProperty('top', _computeButtonTop.bind(this)() );
+               if(shadowR.querySelector('#youtube-iframe')!=null) {
+                   shadowR.querySelector('#youtube-iframe').style.setProperty('height', this.height);
+                   shadowR.querySelector('#youtube-iframe').style.setProperty('width', this.width);
+               }
+
+           });
            
            let img = this.shadowRoot.querySelector('#playme');
            img.src = this.getAttribute('imgsrc');
-           img.style.height = this.getAttribute('height');
-
+           img.style.height = this.height;
+           //img.style.height = this.height;
+           
            document.body.addEventListener('kickout', kickEventHandler.bind(this));
            function kickEventHandler( event ) {
                if(event.detail.uniqid != this.uniqid) {
@@ -155,10 +175,18 @@
                    this.hideVideo( event );
                }
            }
-
+    
            // YouTube Button: size 140 x 82
-           shadowR.querySelector('.yt-button-frame').style.setProperty('top', Math.abs(img.style.height.replace('px', '') / 2 - 65) + 'px');
-           shadowR.querySelector('.outer-container').style.setProperty('height', this.getAttribute('height'));
+           function _computeButtonTop () {
+               let out = Math.abs(this.height.replace('px', '') / 2 - 65) + 'px';
+               if( this.width.replace('px', '') >= 574 ) {
+                   out = Math.abs( (382 * this.getAttribute('size').replace('%', '') / 100) / 2 - 65) + 'px';
+               }
+               return out;
+           }
+
+           shadowR.querySelector('.yt-button-frame').style.setProperty('top', _computeButtonTop.bind(this)() );
+           shadowR.querySelector('.outer-container').style.setProperty('height', this.height);
 
            let start = 0;
            if(this.getAttribute('start').match(':') != 0) {
@@ -171,19 +199,32 @@
            } else if(this.getAttribute('start').match(/[0-9]*/) != 0) {
                start = this.getAttribute('start');
            }
-           start = '&start=' + start;
+           start = 'start=' + start;
 
            let rel = ( this.getAttribute('rel') == 0 ) ? 'rel=0' : '';
            let controls = ( this.getAttribute('controls') == 0 ) ? 'controls=0' : '';
            let showinfo = ( this.getAttribute('showinfo') == 0 ) ? 'showinfo=0' : '';
            let autoplay = ( this.getAttribute('autoplay') == 1 ) ? 'autoplay=1' : '';
-           
+
            // adding autoplay to the URL
            this.ytContenturl = 
                YouTubePlay.youtubeurl + this.getAttribute('contentid')
-               + '?'
-               + '&amp;' + rel + '&amp;' + controls + '&amp;' + showinfo
-               + '&amp;' + start + '&amp;' + autoplay;
+               + '?' + rel + '&' + controls + '&' + showinfo
+               + '&' + start + '&' + autoplay;
+       }
+       
+       _computeHeight() {
+           // convert width to height by 16:9 aspect ratio.
+           let out = {
+               height: Math.floor((this.getAttribute('size').replace('%', '') / 100) * (9 * window.innerWidth / 16)) + 'px',
+               width:  Math.floor((this.getAttribute('size').replace('%', '') / 100) * window.innerWidth ) + 'px'
+           }
+               
+           if( out.width.replace('px', '') >= 574 ) {
+               out = { width: '574px', height:'322px' };
+           }
+
+           return out;
        }
        
        revealVideo( event ) {
@@ -196,11 +237,12 @@
 
            let iframe = document.createElement('iframe');
            iframe.id = 'youtube-iframe';
-           iframe.width = this.width; //(4 * this.getAttribute('height').replace('px', '') / 3) + 'px';
-           iframe.height = this.getAttribute('height');
+           iframe.width = this.width;
+           iframe.height = this.height;
+           
            iframe.setAttribute('frameborder', '0');
            iframe.src = this.ytContenturl;
-               
+           
            let div = document.createElement('div');
            div.classList.add('ytiframe');
            div.appendChild(iframe);
