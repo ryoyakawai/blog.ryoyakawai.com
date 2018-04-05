@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: Cheet sheet of markdown 
 description: ""
 modified: 2014-12-24
 tags: [sample post]
@@ -99,3 +99,10 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
+
+## command for compiling and checking site
+
+### macOS X
+```shell
+$ bundle exec jekyll serve --watch;
+```
