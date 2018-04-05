@@ -13,8 +13,8 @@ tags: [Web Audio API, Web MIDI API, Web Music Developers JP, Web Music]
 基本的な使い方から、WebAudioAPIが実装されていないブラウザから使う為の
 Polyfill：<a href="https://github.com/g200kg/WAAPISim" target="_blank">WAAPIShim</a> についての説明と、とても詳しくご説明くださりかなり勉強になりました！
 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sMoQHFz2AMo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="sMoQHFz2AMo" size="80%" imgsrc="{{ site.url }}/images/2013/09/20130905-webaudio.png" start="0" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 
 

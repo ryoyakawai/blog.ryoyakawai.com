@@ -10,8 +10,8 @@ tags: [Web Audio API, Web MIDI API]
 
 <a href="http://www.w3.org/2013/11/TPAC/" target="_blank">TPAC</a>(Technical Plenary / Advisory Committee Meetings)のネタを書こうと思っいたのですが、ちょっと遅くなっててすみません。そんな中 <a href="http://events.html5j.org/conference/2013/11/" target="_blank">HTML5 Conference 2013</a> で Web MIDI APIについてお話をさせていただいてきました！映像はこちらです。（3:22:58くらいからです。）
 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Chdlf5PK7E0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="Chdlf5PK7E0" size="80%" imgsrc="{{ site.url }}/images/2013/12/20131203-html5-conference-webaudio_midiapi.png" start="3:21:48" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 
 この中でお答えを出来なかったご質問が1つありましたので調査しました。ご質問内容は **「Web MIDI APIはOfflineで使用可能か？」** というものです。その結論は **「Web MIDI APIはOfflineで使用可能です。」**

@@ -19,8 +19,8 @@ Wrapperの話に入る前に「MIDIってなんぞ？」ってところを少し
 「メーカの枠を超え、電子楽器と電子楽器を接続する為のプロトコル」なんです。
 歴史は30年前のNAMM Show(National Association of Music Merchants Show)という楽器の見本市でお披露目され
 (今年はちょうど30周年に加え<a href="http://www.midi.org/aboutus/news/grammy.php" target="_blank">テクニカルグラミー賞を受賞</a>)、その後電子楽器の接続のみならず照明機器のコントロール、通信カラオケ、携帯電話の着信音の制作など幅広く利用、応用されています。有名なのは、HollywoodにあるUniversal StudiosのWaterworldのアトラクションで、ライトと演出の同期、キュー出しにMIDIが使われています。そのアトラクションがこれ▼です。(12分00秒辺りが同期とか必要そう)
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GmkZYt2-GYY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="GmkZYt2-GYY" size="80%" imgsrc="{{ site.url }}/images/2013/08/20130820-waterworld.png" start="0" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 
 Wrapperの説明に入ります。

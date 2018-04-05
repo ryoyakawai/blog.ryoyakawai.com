@@ -41,39 +41,48 @@ image:
 最優秀作品、チームHimakanによるFaceTrackingEffectorです。<a href="https://himakan.github.io/facetracking-effector/" target="_blank">[App]</a> <a href="https://github.com/himakan/facetracking-effector" target="_blank">[Source]</a>
 Webカメラからの映像から顔をトラッキングして画面に表示、さらに再生している音声のフィルタをかけてるというVJ作品になります。プレゼン内では紹介されていませんでしたが、トラッキング場所が実は手元のKaoss Padのパッド部分に反映されています。
 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_TGofN7wv8?rel=0&amp;controls=0&amp;showinfo=0&amp;start=4405" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="z_TGofN7wv8" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-01.png" start="4405" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 <br>
 2つ目は @okame_okame さんのエレキ木魚です。<a href="https://github.com/okame/MOKUGYO2" target="_blank">[Source]</a><br>
 木魚側にArduinoを使ったTriggerからの信号を、PC側にはChromeAppsなアプリで<a href="https://developer.chrome.com/apps/app_serial" target="_blank">Serial DeviceのAPI</a>を使って受取り、Web Audio APIで作った音を鳴らす、という仕組みの作品です。さらに、木魚にはセンサが入っていてその傾きでも音に変化が加わったりします。
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_TGofN7wv8?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2290" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div>
+  <youtube-play contentid="z_TGofN7wv8" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-02.png" start="2290" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 <br>
 3つ目は kirinsan.org さんのオタマトーンの音をブラウザで拾いPitchを検出、それをMIDIメッセージに変換してMIDI音源を鳴らすという作品です。<a href="http://kirinsan-org.github.io/OtamaMIDI/" target="_blank">[App]</a> <a href="https://github.com/kirinsan-org/OtamaMIDI/tree/gh-pages" target="_blank">[Source]</a> 
 MIDI音源の音色は手元のスマホから変更が可能だったりユーザビリティに関してもコダワリが詰まっていました。
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_TGofN7wv8?rel=0&amp;controls=0&amp;showinfo=0&amp;start=2270" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="z_TGofN7wv8" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-03.png" start="27:56" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 <br>
 4つ目は コボリ マサユキさんにより電車でGo!です。
 ゲーム機用の電車でGo!のコントローラをMIDIコントローラに改造をして、プラレールを動かし、それに合わせてブラウザ側では発車音等を鳴らすという作品です。
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_TGofN7wv8?rel=0&amp;controls=0&amp;showinfo=0&amp;start=674" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="z_TGofN7wv8" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-04.png" start="674" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 <br>
 5つ目は @tadfmac さんによる野菜を触ることで映像が動くという作品です。
 ナマ物（野菜、果物）をトリガーにしてArduinoでMIDIメッセージに変換をしてブラウザ側ではWeb MIDI APIを使って映像を動かす、という作品です。さっそく<a href="http://qiita.com/tadfmac/items/f2172cdacbdd5600256e" target="_blanl">電子回路側の解説</a>を公開してくださっていますので、気になる方は御覧ください。
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z_TGofN7wv8?rel=0&amp;controls=0&amp;showinfo=0&amp;start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div>
+  <youtube-play contentid="z_TGofN7wv8" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-05.png" start="420" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 <br>
 そして+1曲はこちらです。
 音源にポケミクを使ったWebMusicの歌！！
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MYnUvkDKT34?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="MYnUvkDKT34" size="80%" imgsrc="{{ site.url }}/images/2014/09/20140916-webmusic-yt-06.png" start="420" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
+
 <div class="post-image-center">
 作詞、作、編曲：meguru (JSPA Web MIDI研究委員会）
 </div>

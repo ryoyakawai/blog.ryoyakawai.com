@@ -14,9 +14,8 @@ image:
 
 前回、前々回とWeb MIDI APIのレビューと<a href="https://github.com/cwilso/WebMIDIAPIShim" target="_blanl">エミュレーションライブラリ(WebMIDIAPIShim:Polyfill)</a>を使ったMIDI INのサンプルを紹介してきました。MIDI INを紹介したのでMIDI OUTで何か作ろうと頭をひねったのですが「やっぱりMIDIファイルプレーヤーがいいかな〜？」という結論になりました。ちょっと思い返したら、12月2日のアドベントカレンダーで <a href="https://twitter.com/toyoshim" target="_blank">@toyoshim</a> さんが「<a hrer="http://toyoshim.blogspot.jp/2012/12/webmidilink.html" target="_blank">WebMidiLinkで遊んでみた</a>」と題してSMFプレーヤーを公開されていることに気がつき、横着応用をして対応することにしましたf(^-^;) 数行の改変ですので、改変に関しては文字で説明させていただき、動作に関しては動画でお送りすることにしました。曲はYs2のオープニングでMIDIデータは<a href="http://poteto.sakura.ne.jp/music_ys2.html" target="_blank">OnLine Game Friend's</a>からダウンロードして使用しています。
 
-
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5TKIaDrxMsI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="5TKIaDrxMsI" size="80%" imgsrc="{{ site.url }}/images/2012/12/20121225-webmidi.png" start="0" autoplay="1" rel="0" controls="0" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 
 

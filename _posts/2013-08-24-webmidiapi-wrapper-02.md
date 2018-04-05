@@ -21,10 +21,9 @@ Las Vegas のカジノに泥棒に入るっていうストーリーですが、
 ベラージオ (<a href="http://www.bellagiolasvegas.com/ja/" target="_blank">Bellagio</a>) のショーというのは有名だと思います。なんと、あのコントロールのオリジナルのシステムは MIDI なんですよ〜！！
 
 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/401wv1eKc2c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="401wv1eKc2c" size="80%" imgsrc="{{ site.url }}/images/2013/08/20130824-fountain.png" start="0" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
-
 
 さて、本題です。前回もお伝えしましたが、Web MIDI API Wrapperは基本的な以下のメッセージに対応にしています。
 

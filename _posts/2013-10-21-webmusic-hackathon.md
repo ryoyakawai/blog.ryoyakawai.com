@@ -54,8 +54,8 @@ tags: [Web Audio API, Web MIDI API, Web Music Developers JP, Hackathon, Web Musi
 <br>
 最後に発表会を行いました。<br>
 動画はこちらです ▼
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MocPwUT4UTk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="MocPwUT4UTk" size="80%" imgsrc="{{ site.url }}/images/2013/10/20131021-webmusic-hack-yt.png" start="2" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 
 ここではスペシャルゲストとして <a href="//twitter.com/mohayonao" target="_blank">@mohayonao</a> さんがhangoutで参加！！<br>

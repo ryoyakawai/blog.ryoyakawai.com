@@ -21,28 +21,41 @@ In that day, I have provided <a href="https://github.com/ryoyakawai/WebMusicDeve
 Let's see the applications from begginers!! (the images are linked to YouTube movie which is specified starting point)<br>
 
 The draw bar organ which was invented by @kenkov. He had invented its tone generator, and musical keyboard parts are invented with using <a href="https://github.com/g200kg/webaudio-controls" target="_blank">webaudio-controls</a>.<br>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5469" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div><br>
+
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-01.png" start="5469" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
+</div>
+
+<br>
 <br>
 The next one is an application that using motion censor to play his original MIDIappy's voice by following the PC's motion. It was fun, because the MIDIappy's voice is so cute. 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=6364" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-02.png" start="6364" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
+
 These applications are invented beginners who learned APIs from tutorial in a few hours. From this fact, I think it is not too much to say that using these APIs are NOT so difficult.
 If you are interested in these API's, I want you to challenge to invent applications.<br>
 <br>
 Topics from here is NOT beginners.<br>
 The first one is invent application using hardware beyond the browser's functionality.
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=7830" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-03.png" start="7830" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
+</div>
+
+
 </div>
 There was two of them. One is the application that changing MIDI message to infrared light to control hardwre, and the other is create pulse sign by Web Audio API and send it to servo motor to control.<br>
 <br>
 The next one is a mascot, which is not certified by W3C, and it came out from this event. The name is "MIDIappy", which designed by @g200kg(he is one of an expert, not beginner.). The application is this one.<br>
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=8513" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-04.png" start="8513" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 He brought MIDIappy's figure which is created by 3D printer.
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2014/01/20140120-midiapi.jpg" width="70%">

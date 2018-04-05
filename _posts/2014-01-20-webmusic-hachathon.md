@@ -19,30 +19,34 @@ tags: [Web MIDI API, Web Music Hackathon, Web Music, Web Audio]
 初心者の皆様には<a href="https://github.com/ryoyakawai/WebMusicDevelopersJP/tree/master/codeLabs" target="_blank">チュートリアル</a>を実施いただくことで慣れてもらいました。チュートリアルは、虫食いになっているソースコードに、アプリケーションを作るのに重要な method を入力していってもらうようになっています。2時間で終えられた方から、挫折された方がいるみたいですね。それでは早速作品を見てみましょう！（画像はYouTubeに開始時間指定でリンクしています）<br>
 <br>
 けんこふさんのドローバーオルガンです。音源部を実装されて、鍵盤部分は webaudio-controls を使って実装されたとのことです。 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=5469" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div><br>
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-01.png" start="5469" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
+</div>
+<br>
 <br>
 つづいてみでぃゃっぴーの声を作って音声の再生＋作動モーションセンサで動きを検知してMIDIで音声の再生をする作品です。ゆるい声でなかなかおもしろかったですww
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=6364" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-02.png" start="6364" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 こういった作品をチュートリアルから初めて、数時間で完成されていますので、使うハードルはそこまで高くないということがお分かりになると思いますので、気になる方はぜひ挑戦してみてください！<br>
 <br>
 <br>
 この先は初心者からカテゴリを変えます。
 まずはWebブラウザの枠を超えた「ハードウェアなやつ」です。
 
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=7830" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-03.png" start="7830" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
 MIDIメッセージを赤外線信号に変えてハードウェアを制御するアプリとパルス信号を作成してサーボモータを直接制御するアプリです。<br>
 <br>
 <br>
 次は今回から登場したのがゆるキャラ「みでぃゃっぴー」です。<a href="//twitter.com/g200kg" target="_blank">g200kg</a> さんがデザインされた **W3C非公認のWeb MIDI API のゆるキャラ**です。そのアプリケーションがこちら。
-<div class="post-image-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dCvuBz1FYWg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=8513" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div>
+  <youtube-play contentid="dCvuBz1FYWg" size="80%" imgsrc="{{ site.url }}/images/2014/01/20140120-webmusic-hackathon-yt-04.png" start="8513" autoplay="1" rel="0" controls="1" showinfo="0" allowfullscreen="1"></youtube-play>
 </div>
+
 マスコットも3Dプリンタで作成されています。
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2014/01/20140120-midiapi.jpg" width="70%">
