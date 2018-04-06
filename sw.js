@@ -1,5 +1,5 @@
 /* sw.js */
-
+/*
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
 let VERSION = '1.0.8';
@@ -15,7 +15,7 @@ workbox.routing.registerRoute(
         cacheName: 'speciffic-images_' + VERSION,
         plugins: [
             new workbox.expiration.Plugin({
-                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+                maxAgeSeconds: 7 * 24 * 60 * 60, // 30 Days
             }),
         ],
     }),
@@ -28,7 +28,7 @@ workbox.routing.registerRoute(
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 60,
-                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+                maxAgeSeconds: 7 * 24 * 60 * 60, // 30 Days
             }),
         ],
     }),
@@ -38,11 +38,11 @@ workbox.routing.registerRoute(
 // for Google Analytics
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 workbox.googleAnalytics.initialize();
-
+*/
 
 /* https://qiita.com/k_7016/items/503fbb85c9dba80d23f7 */
 /*
-let VERSION = "Y.1.0.2";
+let VERSION = "1.0.2";
 let CACHE_NAME = 'blog.ryoyakawai.com-' + VERSION;
 let CACHE_MAX = 40;
 let FILES_TO_CACHE = [
