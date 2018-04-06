@@ -25,7 +25,7 @@ Blogを移転の為に記事の引越しをしてみて気づいたページロ�
 
 <youtube-play contentid="WsptdUFthWI" imgsrc="{{ site.url }}/images/2018/04/youtube-play-sample-02.png" start="1:48" autoplay="1" size="75%" rel="0" controls="1" showinfo="0" width="447.75px"></youtube-play>
 
-Polymer()のElementなのでもちろんHTMLを書くことで埋め込み完了です。
+Polymer(Web Components)のElementなのでもちろんHTMLを書くことで埋め込み完了です。
 
 ```html
 <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
