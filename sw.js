@@ -1,5 +1,4 @@
 /* sw.js */
-/*
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
 let VERSION = '1.0.8';
@@ -38,7 +37,6 @@ workbox.routing.registerRoute(
 // for Google Analytics
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 workbox.googleAnalytics.initialize();
-*/
 
 /* https://qiita.com/k_7016/items/503fbb85c9dba80d23f7 */
 /*
