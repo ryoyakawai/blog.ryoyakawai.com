@@ -9,30 +9,44 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load `);
 }
 workbox.routing.registerRoute(
+  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  workbox.strategies.cacheFirst({
+    cacheName: 'images',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 20 * 24 * 60 * 60, // 20 Days
+      }),
+    ],
+  }),
+);
+
+/*
+workbox.routing.registerRoute(
         /avatar.jpg$|profile_photo.jpg$|background_sf_pano_300x300.jpg$|about_background.jpg/,
     workbox.strategies.cacheFirst({
         cacheName: 'speciffic-images_' + VERSION,
         plugins: [
             new workbox.expiration.Plugin({
-                maxAgeSeconds: 7 * 24 * 60 * 60, // 30 Days
+                maxAgeSeconds: 30 * 24 * 60 * 60 // 30 Days
             }),
         ],
     }),
 ); 
 
 workbox.routing.registerRoute(
-        /\.(?:png|gif|jpg|jpeg|svg|js|css)$|/,
+        /\.(?:png|gif|jpg|jpeg|svg|js|css)$/,
     workbox.strategies.cacheFirst({
         cacheName: 'static-resources_'+ VERSION,
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 60,
-                maxAgeSeconds: 7 * 24 * 60 * 60, // 30 Days
+                maxAgeSeconds: 30 * 24 * 60 * 60 // 30 Days
             }),
         ],
     }),
 ); 
-
+*/
 
 // for Google Analytics
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
