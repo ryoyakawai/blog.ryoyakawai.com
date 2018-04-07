@@ -11,7 +11,7 @@ if (workbox) {
 workbox.routing.registerRoute(
   /\.(?:png|gif|jpg|jpeg|svg)$/,
   workbox.strategies.cacheFirst({
-    cacheName: 'images',
+    cacheName: 'images-' + VERSION,
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 60,
