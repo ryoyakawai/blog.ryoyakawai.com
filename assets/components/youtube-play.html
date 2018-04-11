@@ -161,7 +161,7 @@
            let tSize = parseInt(this.getAttribute('size')) / 100;
            this.height = tSize * parseInt(iSize.height) + 'px';
            this.width = tSize * parseInt(iSize.width) + 'px';
-           this.uniqid = '_' + Math.random().toString(36).substr(2, 14);
+           this.uniqid = this._createUniqid();
            
            window.addEventListener('resize', event => {
                let iSize = this._computeHeight.bind(this)();
@@ -228,6 +228,10 @@
                YouTubePlay.youtubeurl + this.getAttribute('contentid')
                + '?' + rel + '&' + controls + '&' + showinfo
                + '&' + start + '&' + autoplay;
+       }
+
+       _createUniqid() {
+           return '_' + Math.random().toString(36).substr(2, 14);
        }
        
        _computeHeight() {
@@ -322,8 +326,8 @@
            super.detached();
        }
 
-       attributeChangedCallback () {
-           super.attributeChangedCallback();
+       attributeChangedCallback (name, old, value) {
+           super.attributeChangedCallback(name, old, value);
        }
 
        attributeChanged () {
