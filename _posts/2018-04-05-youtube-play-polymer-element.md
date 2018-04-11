@@ -31,7 +31,7 @@ Polymer(Web Components)のElementなのでもちろんHTMLを書くことで埋�
 <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
 <link rel="import" href="[PathTo]/youtube-play.html">
 
-<youtube-play contentid="WsptdUFthWI" imgsrc="{{ site.url }}/images/2018/04/youtube-play-sample-02.png" start="1:48" autoplay="1" size="75%" rel="0" controls="1" showinfo="0" width="447.75px" uniqid="_b9sahxy4rlw"></youtube-play>
+<youtube-play contentid="WsptdUFthWI" imgsrc="{{ site.url }}/images/2018/04/youtube-play-sample-02.png" start="1:48" autoplay="1" size="75%" rel="0" controls="1" showinfo="0" width="447.75px"></youtube-play>
 ```
 
 Attribute は以下を用意しています。
