@@ -55,5 +55,8 @@ Attribute は以下を用意しています。
 ## リポジトリ
 <a href="//github.com/ryoyakawai/youtube-play/" target="_blank">https://github.com/ryoyakawai/youtube-play</a>
 
+## Live Demo
+[Demo: youtube-play](https://ryoyakawai.github.io/youtube-play/) 
+
 ## 動作の確認状況
 2018年4月5日現在、macOS High Sierra(10.13.3)上でChrome 65.0.3325.181、Firefox 59.0.2、Safari 11.0.3で動作の確認をしています。
