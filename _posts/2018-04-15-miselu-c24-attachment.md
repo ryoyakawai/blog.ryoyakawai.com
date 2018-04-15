@@ -22,13 +22,18 @@ image:
 軽いし、折りたたみ式なのでモバイル性にも優れているし、カッコイイのでデモが必要な時はC.24を使おうと思ったのですがAndroid派の自分には大きな問題が・・・
 このC.24を使うには本体に備えられている溝にデバイスが刺さらないとモバイルデバイスが固定できないのだけど、その設計がどちらかというと薄めのiPad向けので薄いタブレットが少ないAndroidな端末が固定できない・・・
 
-でも使いたい！！ということで、アタッチメントを作ってみました。
+「でも使いたい！！」ということで、アタッチメントを作ってみました。
 
 ## 作成したアタッチメント
-取り付けるとこんな感じになります。
+アタッチメントはこんな感じ。左が全パーツで、右が組み立てた状態。
+
 <div class="post-image-center">
-  <img src="{{ site.url }}/images/2018/04/c24_attachment_04.jpg" width="45%" style="filter:brightness(130%);">
+<img src="{{ site.url }}/images/2018/04/c24_attachment_parts.jpg" width="45%" style="filter:brightness(130%);">
+<img src="{{ site.url }}/images/2018/04/c24_attachment_04.jpg" width="45%" style="filter:brightness(130%); margin-left:20px;">
 </div>
+
+取り付けるとこんな感じになります。左がC.24にセットした状態、右がC.24にセットしてタブレットを載せた状態。
+
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2018/04/c24_attachment_00.jpg" width="45%" style="">
   <img src="{{ site.url }}/images/2018/04/c24_attachment_01.jpg" width="45%" style="margin-left:20px">
@@ -43,7 +48,7 @@ image:
 </div>
 
 
-## 3Dデータ公開してます
+## 3Dデータを公開します
 
 STLファイルを公開していますのでご自由にお使いください！
 
