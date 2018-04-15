@@ -52,8 +52,8 @@ image:
 
 STLファイルを公開していますのでご自由にお使いください！
 
-- メインプレート：[左](https://blog.ryoyakawai.com/stl/2018/04/c24_left.stl)、[右](https://blog.ryoyakawai.com/stl/2018/04/c24_right.stl)
 - [コネクションプレート](https://blog.ryoyakawai.com/stl/2018/04/c24_back_support_plate.stl)
+- メインプレート：[左](https://blog.ryoyakawai.com/stl/2018/04/c24_left.stl)、[右](https://blog.ryoyakawai.com/stl/2018/04/c24_right.stl)
 
 <div class="post-image-center">
   <iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&url=https://blog.ryoyakawai.com/stl/2018/04/c24_back_support_plate.stl&shading=flat&color=azure&bgcolor=transparent&clean=no&orientation=front&edges=yes&noborder=yes" style="border:0;margin:0;width:280px;height:150px;"></iframe>
