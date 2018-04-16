@@ -1,7 +1,7 @@
 /* sw.js */
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
-let VERSION = '1.0.11';
+let VERSION = '1.0.12';
 
 if (workbox) {
   console.log(`Yay! Workbox is loaded `);
@@ -15,7 +15,7 @@ workbox.routing.registerRoute(
     plugins: [
       new workbox.expiration.Plugin({
         maxEntries: 60,
-        maxAgeSeconds: 20 * 24 * 60 * 60, // 20 Days
+        maxAgeSeconds: 10 * 24 * 60 * 60, // 10 Days
       }),
     ],
   }),
