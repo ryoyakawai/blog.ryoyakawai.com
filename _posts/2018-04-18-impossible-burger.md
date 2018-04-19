@@ -26,7 +26,7 @@ image:
 ## 注文してみた
 San MateoのJack's PRIME[(公式サイト)](https://www.jacksprime.com/)[(Yelp)](https://www.yelp.com/biz/jacks-prime-san-mateo-4)で試食しました。
 
-店員さんに注文方法についてのやりとり。
+店員さんとの注文方法についてのやりとり。
 
 - **私** 「どうやってImpossibleを注文したらよい？」
 - **店員さん** 「Impossibleはパティが違うだけだから、Burger MenuのならどれでもImpossibleにできるよ」
