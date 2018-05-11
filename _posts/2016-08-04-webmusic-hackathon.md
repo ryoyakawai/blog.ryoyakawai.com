@@ -11,7 +11,7 @@ image:
 ---
 <div> </div>
 
-<a href="/2016/08/webmusic-hackathon-en.html">English Version</a><br>
+<a href="/2016/08/04/webmusic-hackathon-en.html">English Version</a><br>
 <div class="post-image-center">
   <img src="{{ site.url }}/images/2016/08/20160804-webmusic-hackathon-01.png" width="100%">
 </div>
