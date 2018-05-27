@@ -77,7 +77,7 @@ Fitbit OS上のアプリは[JerryScript](http://jerryscript.net/)で開発する
 積み残しは、いつか実装したいと思っています。
 
 ## 要望とか
-今の所、以下の2つが強化されると快適になると思いました。
+以下の2つが強化されると快適になると思いました。
 
 - ファイルアップロード用のCLIの提供
 - Fitbit StudioとFitbit Gallery App Managerが統合しシームレスな公開作業を提供
