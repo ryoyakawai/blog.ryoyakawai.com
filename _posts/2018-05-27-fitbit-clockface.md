@@ -73,7 +73,7 @@ image:
 ## 要望とか
 今の所、以下の2つが強化されると快適になると思いました。
 
-- コードのアップロードの許可(Amazon LambdaのようにZIPでアップロードでもよいので・・・)
+- コードのアップロードの許可(AWS LambdaのようにZIPでアップロードでもよいので・・・)
 - Fitbit StudioとFitbit Gallery App Managerの統合しシームレスな公開作業の提供
 
 
