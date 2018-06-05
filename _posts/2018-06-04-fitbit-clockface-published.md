@@ -19,7 +19,7 @@ image:
 <img src="{{ site.url }}/images/2018/06/20180604-clockface_timezone.png" width="70%">
 </div>
 
-FitbitのアプリのClock Faceからは**Secondary Timezon**で検索すると速いです。
+FitbitのアプリのClock Faceからは**Secondary Timezone**で検索すると速いです。
 
 Fitbitのアプリがインストールされてるスマホからしか起動しないけどリンクはこちら。
 
