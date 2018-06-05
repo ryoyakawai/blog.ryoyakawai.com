@@ -16,7 +16,7 @@ image:
 以下↓が今回公開した2つのClock Face。（写真はVersaのだけどIonicにも対応しています）デジタルだけでいいや、と思ってたけどアナログも欲しくなって結局作ってしまった。そして、今使ってるのはアナログです。
 
 <div class="post-image-center">
-<img src="{{ site.url }}images/2018/06/20180604-clockface_timezone.png" width="70%">
+<img src="{{ site.url }}/images/2018/06/20180604-clockface_timezone.png" width="70%">
 </div>
 
 Fitbitのアプリがインストールされてるスマホからしか起動しないけどリンクはこちら。
@@ -39,7 +39,7 @@ Fitbitのアプリがインストールされてるスマホからしか起動�
 - [Fitbit Studio](https://studio.fitbit.com/)で作ったアプリ内の`package.json`のDisplay Name（画像右）
 
 <div class="post-image-center">
-<img src="{{ site.url }}images/2018/06/20180604-studio-gam.png" width="100%" style="border:1px solid #eee;">
+<img src="{{ site.url }}/images/2018/06/20180604-studio-gam.png" width="100%" style="border:1px solid #eee;">
 </div>
 
 ### Build Targetsでチェックを入れた種類のスクリーンショットの準備不足
