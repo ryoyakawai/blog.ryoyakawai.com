@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Timezo Clocks for Chrome Extension
+title: Timezone Clocks for Chrome Extension
 description: ""
 modified: 2018-06-24
 tags: [Chrome, Chrome Extension, Wikipedia, Develop]
@@ -37,7 +37,8 @@ Chrome Extensionには便利なのがいくかあって、今までは、Chrome 
 無駄に動かすのも気持ち良いですw
 
 
-設定はChromeにGoogleアカウントでログインされていたら反映されるのも便利です。
+Timezoneの設定はインストールされているChrome毎にではなく、ChromeにGoogleアカウントでログインしていれば、他のコンピュータのChromeとも共有されるようになっています。
+
 ということで、もしよかったらお使いください〜！
 
 インストールはこちから → <a href="https://chrome.google.com/webstore/detail/timezone-clocks/phckpicnefnbafbamoidbemcdlolfoel" target="_blank" style="font-size:1.2em; font-weight: bold;">[ Timezon Clocks (Chrome Web Store) ]</a>

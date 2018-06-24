@@ -1,7 +1,7 @@
 /* sw.js */
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
-let VERSION = '1.0.19';
+let VERSION = '1.0.21';
 
 if (workbox) {
   console.log(`Yay! Workbox is loaded `);
