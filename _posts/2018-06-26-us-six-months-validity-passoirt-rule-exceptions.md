@@ -3,7 +3,7 @@ layout: post
 title: ESTAでの米国入国時のパスポートの有効期限は先90日あるのが望ましい（2018年現在）
 description: ""
 modified: 2018-06-26
-tags: [Chrome, Chrome Extension, Wikipedia, Develop]
+tags: [ESTA, US, Passport]
 image:
 #  feature: abstract-3.jpg
 #  credit: dargadgetz
