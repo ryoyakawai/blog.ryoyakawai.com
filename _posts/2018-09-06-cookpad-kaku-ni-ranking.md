@@ -2,7 +2,7 @@
 layout: post
 title: 「Staubで豚バラの角煮」がCookpadで人気検索でトップ10入り！
 description: ""
-modified: 2018-06-26
+modified: 2018-09-06
 tags: [料理, Cookpad, Staub, ストウブ]
 image:
 #  feature: abstract-3.jpg
