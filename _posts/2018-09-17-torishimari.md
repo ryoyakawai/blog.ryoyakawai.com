@@ -80,5 +80,5 @@ image:
 - [執行役と執行役員の役割や違い！](https://minnkane.com/news/5537)
 - [役員とは？社員・執行役員・役職との違い、その種類や選出のポイントまでご紹介](https://bizhint.jp/keyword/110694)
 - [会社の機関は、法人として意思を決定し、実行するために設置される存在](https://www.icfpe.jp/corporation_law/administrative.html)
-
+- [損金って何？損金に算入されるとかされないってよくいうけど？](https://keiei.freee.co.jp/2013/08/20/sonkin/)
 
