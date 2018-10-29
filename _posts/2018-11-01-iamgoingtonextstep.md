@@ -2,7 +2,7 @@
 layout: post
 title: 次なるステージに踏み出します！
 description: ""
-modified: 2018-10-29
+modified: 2018-11-01
 tags: [その他]
 image:
 #  feature: abstract-3.jpg
