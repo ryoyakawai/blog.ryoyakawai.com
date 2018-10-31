@@ -2,6 +2,7 @@
 layout: post
 title: 次なるステージに踏み出します！
 description: ""
+date: 2018-11-01 00:00:00 +0900
 modified: 2018-11-01
 tags: [その他]
 image:
