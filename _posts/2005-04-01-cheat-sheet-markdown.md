@@ -104,5 +104,5 @@ Make any link standout more when applying the `.btn` class.
 
 ### macOS X
 ```shell
-$ bundle exec jekyll serve --watch;
+$ bundle exec jekyll serve --watch --future;
 ```
