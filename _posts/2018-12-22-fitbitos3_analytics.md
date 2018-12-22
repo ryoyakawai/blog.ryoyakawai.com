@@ -36,7 +36,7 @@ Fitbit OS上のアプリ向けっぽいのでClockfaceで動くのか？とい�
 これで、どれだけ使われているのか分かる、かな？  
 まだレビューですが、リリースできるようになるのを楽しみにしてようと思います。  
 
-1つだけ要望を言うと、`fitbit-google-analytics/app.js`のExportsをこんな感じにして`debug`をExposeして欲しい。
+`fitbit-google-analytics/app.js`の`debug`をExposeして欲しかったな〜。
 
 ```javascript
 var analytics = {
@@ -45,4 +45,9 @@ var analytics = {
   send: send
 };
 export default analytics;
+```
+
+こっちも`fitbit-google-analytics/companion.js`
+```javascript
+var debug = false;
 ```
