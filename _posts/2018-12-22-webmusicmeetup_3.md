@@ -127,7 +127,7 @@ MediaElementAudioSourceNodeと映像フォーマットのお話。
 
 ## おわりに
 不定期にこんな形のMeetupを開催していく予定です。  
-これからの Web について真剣に議論する[「次世代 Web カンファレンス」](https://nextwebconf.connpass.com/event/103056/)のWebMusic(#nwc_music)のセッションがありますので、そちらもお楽しみに！
+これからの Web について真剣に議論する[「次世代 Web カンファレンス」](https://nextwebconf.connpass.com/event/103056/)のWebMusic(#nwc_music)のセッションがあります。そちらもお楽しみに！
 
 
 ## リンク
