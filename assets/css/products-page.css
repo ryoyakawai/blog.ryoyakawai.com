@@ -1,0 +1,9 @@
+body {
+  background-color: rgba(244, 244, 244, 1)
+}
+h1.header-product-title-text {
+  color: rgba(58, 149, 195, 1)
+}
+h2 {
+  margin-bottom: 10px !important
+}
