@@ -11,7 +11,7 @@ og:
   type: website
   site_name: Product Page of Secondary Timezone 2
   image: /images/products/secondarytimezone2/product-image-sm.png
-  title: Secondary Timezone 2 for fitbit
+  title: Secondary Timezone 2 for Fitbit
   description: App to dispaly two timezone
 comments: false
 modified: 2018-12-31
