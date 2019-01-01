@@ -12,7 +12,7 @@ og:
   site_name: Product Page of Secondary Timezone 2
   image: /images/products/secondarytimezone2/product-image-sm.png
   title: Secondary Timezone 2 for fitbit
-  description: ABCDEFG
+  description: false
 comments: false
 modified: 2018-12-31
 ---
