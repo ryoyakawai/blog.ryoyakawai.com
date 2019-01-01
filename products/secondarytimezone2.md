@@ -1,7 +1,7 @@
 ---
 layout: products
 title: Secondary Timezone 2
-description: false
+description: website
 image:
   //feature: 
   //credit: 
