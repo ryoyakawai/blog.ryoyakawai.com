@@ -1,14 +1,14 @@
 ---
 layout: products
 title: Secondary Timezone 2
-description: website
+description:
 image:
   //feature: 
   //credit: 
   //creditlink:
 og:
   locale: en_US
-  type:
+  type: website
   site_name: Product Page of Secondary Timezone 2
   image: /images/products/secondarytimezone2/product-image-sm.png
   title: Secondary Timezone 2 for fitbit
