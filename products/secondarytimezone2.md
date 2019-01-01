@@ -9,6 +9,7 @@ image:
 og:
   locale: en_US
   tw_card_type: app
+  tw_card_image: /images/products/secondarytimezone2/product-image-1200x630.png
   type: website
   site_name: Product Page of Secondary Timezone 2
   image: /images/products/secondarytimezone2/product-image-sm.png

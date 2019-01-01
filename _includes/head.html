@@ -12,7 +12,7 @@
 <meta name="twitter:title" content="{% if page.og.title %}{{ page.og.title }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:text:title" content="{% if page.og.title %}{{ page.og.title }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-<meta name="twitter:image" content="{{ site.url }}{% if page.og.image %}{{ page.og.image }}{% else %}/images/background_sf_pano_300x300.jpg{% endif %}">{% endif %}
+<meta name="twitter:image" content="{{ site.url }}{% if page.og.tw_card_image %}{{ page.og.tw_card_image }}{% else %}/images/background_sf_pano_300x300.jpg{% endif %}">{% endif %}
 {% if page.og.description != false %}<meta name="twitter:description" content="{% if page.og.description %}{{ page.og.description }}{% else if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% endif %}
 {% endif %}
 
