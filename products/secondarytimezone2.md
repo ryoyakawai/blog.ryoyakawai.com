@@ -8,6 +8,7 @@ image:
   //creditlink:
 og:
   locale: en_US
+  tw_card_type: app
   type: website
   site_name: Product Page of Secondary Timezone 2
   image: /images/products/secondarytimezone2/product-image-sm.png
