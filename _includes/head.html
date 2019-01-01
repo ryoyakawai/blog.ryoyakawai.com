@@ -1,26 +1,27 @@
 
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.description != false %}<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
 {% if site.owner.twitter %}<!-- Twitter Cards -->
 {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}/images/background_sf_pano.jpg">
-{% else %}<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/background_sf_pano.jpg{% endif %}">{% endif %}
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
+{% else %}<meta name="twitter:card" content="{% if page.og.type %}{{ page.og.type }}{% else %}summary{% endif %}">
+<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+<meta name="twitter:image" content="{{ site.url }}{% if page.og.image %}{{ page.og.image }}{% else %}/images/background_sf_pano_300x300.jpg{% endif %}">{% endif %}
+<meta name="twitter:title" content="{% if page.og.title %}{{ page.og.title }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+{% if page.og.description != false %}<meta name="twitter:description" content="{% if page.og.description %}{{ page.og.description }}{% else if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% endif %}
+{% endif %}
 
 <!-- Open Graph -->
-<meta property="og:locale" content="ja_JP">
-<meta property="og:type" content="article">
-<meta property="og:image" content="{{ site.url }}/images/background_sf_pano_300x300.jpg">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:locale" content="{% if page.og.locale %}{{ page.og.locale}}{% else %}ja_JP{% endif %}">
+<meta property="og:type" content="{% if page.og.type %}{{ page.og.type }}{% else %}summary{% endif %}">
+<meta property="og:image" content="{{ site.url }}{% if page.og.image %}{{ page.og.image }}{% else %}/images/background_sf_pano_300x300.jpg{% endif %}">
+<meta property="og:title" content="{% if page.og.title %}{{ page.og.title }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }} {% endif %}">
+{% if page.og.description != false %}<meta property="og:description" content="{% if page.og.description %}{{ page.og.description }}{% else if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% endif %}
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
+{% if page.og.site_name != false %}<meta property="og:site_name" content="{% if page.og.site_name %}{{ page.og.site_name }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }} {% endif %}">{% endif %}
 
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
