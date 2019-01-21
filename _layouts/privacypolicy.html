@@ -1,0 +1,28 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/header-title.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/products-page.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/post.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body id="post-index" class="secondarytimezone2">
+
+<!-- register service worker-->
+<!--script type="text/javascript" src="register_sw.js"></script-->
+
+{% include browser-upgrade.html %}
+
+<div id="main" role="main">
+  <article class="product-detail">
+  {{ content }}
+  </article>
+</div><!-- /#main -->
+
+</body>
+</html>

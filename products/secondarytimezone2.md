@@ -41,6 +41,7 @@ And the features listed below are also available on this.
 To install, please visit this [URL(Secondary Timezone 2)](https://gam.fitbit.com/gallery/clock/7fddd4e5-fe97-40ae-9c06-f9dbbbc3498f).  
 (Fitbit app is required to see the page. )
 
+
 ## Q&A
 All of the Q&A listed below is the as of December 2018.
 
@@ -69,6 +70,11 @@ All of the Q&A listed below is the as of December 2018.
 <img src="/images/products/secondarytimezone2/howtosetup00.png" width="80%" style="border:1px solid #eee;">
 </div>
 
+<div id="ss-pp" class="post-image-center">
+<a href="https://gam.fitbit.com/gallery/clock/7fddd4e5-fe97-40ae-9c06-f9dbbbc3498f" target="_blank"> - Clockface Page - </a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/products/secondarytimezone2pp" target="_blank"> - Privacy Policy - </a>
+</div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131300506-2"></script>
