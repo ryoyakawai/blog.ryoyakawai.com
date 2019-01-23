@@ -3,8 +3,8 @@ layout: privacypolicy
 title: Secondary Timezone 2 Cloclface Privacy Policy
 description: false
 image:
-  //feature: 
-  //credit: 
+  //feature:
+  //credit:
   //creditlink:
 og:
   locale: en_US
@@ -23,7 +23,7 @@ modified: 2018-12-31
     <div class="row-pp">
       <div class="col-md-12-pp">
         <h1 class="pp-title">
-          Secondary Timezone 2 
+          Secondary Timezone 2
         </h1>
         <p>
           Privacy Policy of Secondary Timezone 2
