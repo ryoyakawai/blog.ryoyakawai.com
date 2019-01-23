@@ -86,10 +86,3 @@ All of the Q&A listed below is the as of December 2018.
   gtag('config', 'UA-131300506-2');
 </script>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-9891854265132215",
-    enable_page_level_ads: true
-  });
-</script>
