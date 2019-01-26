@@ -28,6 +28,10 @@ modified: 2018-12-31
 The **Secondary Timezone 2** is the Clock Face for Firbit [Versa](https://www.fitbit.com/en/versa) and [Ionic](https://www.fitbit.com/en/ionic).  
 This Clock Face is designed for those who would like to know two timezones at once.  
 
+## What's new
+
+- **2019.01.26** [Digital Mode] change opacity of separator located between hour and minutes in each seconds from light to dark (v1.0.39)
+
 ## Features
 Displays extra timezone is the one of the biggiest feature for this Clock Face.
 And the features listed below are also available on this.
