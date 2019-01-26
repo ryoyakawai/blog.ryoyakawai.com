@@ -3,8 +3,8 @@ layout: products
 title: Secondary Timezone 2
 description: false
 image:
-  //feature: 
-  //credit: 
+  //feature:
+  //credit:
   //creditlink:
 og:
   locale: en_US
@@ -75,9 +75,9 @@ All of the Q&A listed below is the as of December 2018.
 </div>
 
 <div id="ss-pp" class="post-image-center">
-<a href="https://gam.fitbit.com/gallery/clock/7fddd4e5-fe97-40ae-9c06-f9dbbbc3498f" target="_blank"> - Clockface Page - </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="/products/secondarytimezone2pp" target="_blank"> - Privacy Policy - </a>
+<a href="https://gam.fitbit.com/gallery/clock/7fddd4e5-fe97-40ae-9c06-f9dbbbc3498f" target="_blank">Clockface Page</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="/products/secondarytimezone2pp" target="_blank">Privacy Policy</a>
 </div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -89,3 +89,4 @@ All of the Q&A listed below is the as of December 2018.
 
   gtag('config', 'UA-131300506-2');
 </script>
+
