@@ -36,4 +36,4 @@ image:
   <img src="{{ site.url }}/images/2019/02/20190201-donburi.jpg" width="60%">
 </div>
 
-さて、未来に向けて一歩一歩全身するよっ！
+さて、未来に向けて一歩一歩前進するよっ！
